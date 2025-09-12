@@ -1,8 +1,5 @@
-# TheFlex Reviews
-
-A full‑stack reviews dashboard that aggregates and manages guest/host reviews. The backend is a FastAPI service with SQLite via SQLAlchemy and optional integrations to Hostaway and Google Business Profile. The frontend is a Vite + React (TypeScript) single‑page app.
-
 ## Tech Stack
+
 - Backend
   - FastAPI, Uvicorn
   - SQLAlchemy (SQLite by default)
@@ -16,6 +13,7 @@ A full‑stack reviews dashboard that aggregates and manages guest/host reviews.
   - Node.js 18+
 
 ## Repository Structure
+
 - `backend/`
   - `app/main.py`: FastAPI app entrypoint
   - `app/api/reviews.py`: Reviews API routes and optional external connectors
@@ -29,6 +27,7 @@ A full‑stack reviews dashboard that aggregates and manages guest/host reviews.
 ## Run Locally
 
 ### 1) Backend (FastAPI)
+
 From the `backend/` directory:
 
 ```bash
@@ -42,12 +41,14 @@ python -m uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 ```
 
 Notes:
+
 - The database is SQLite by default and will be created as `backend/theflex.db`.
 - On startup the app creates tables and seeds from `app/mock_reviews.json`.
 - Optional external providers (Hostaway, Google) are guarded; if env vars are not set, they are skipped.
 - Authorization: Hide/Show endpoints require a bearer token; default token is `theflex-demo`.
 
 Example requests:
+
 ```bash
 # Public (non-hidden) reviews
 curl http://localhost:8000/api/reviews/hostaway
@@ -65,6 +66,7 @@ curl -X PATCH -H "Authorization: Bearer theflex-demo" \
 ```
 
 Optional environment variables (all are safe to omit):
+
 - `DASHBOARD_TOKEN` – bearer token for hide/show (default: `theflex-demo`)
 - Hostaway (skip if not configured):
   - `HOSTAWAY_CLIENT_ID`
@@ -77,6 +79,7 @@ Optional environment variables (all are safe to omit):
   - or provide a `backend/app/service_account.json` file and leave JSON env unset
 
 ### 2) Frontend (Vite + React)
+
 From the `frontend/` directory:
 
 ```bash
@@ -85,10 +88,12 @@ npm run dev # default: http://localhost:3000
 ```
 
 Notes:
+
 - During local dev, Vite proxies `/api` to `http://localhost:8000` (see `vite.config.ts`).
 - Alternatively, you can set `VITE_API_BASE_URL` in a `.env` file to fully qualify API calls.
 
 ## Deployment (Recommended)
+
 - Backend: Render (FastAPI)
   - Start command: `uvicorn app.main:app --host 0.0.0.0 --port $PORT`
   - If you want persistence with SQLite, add a Render Disk and point `DATABASE_URL=sqlite:////var/data/theflex.db`
@@ -97,6 +102,3 @@ Notes:
   - Build command: `npm ci && npm run build`
   - Output directory: `dist`
   - Set `VITE_API_BASE_URL` to your Render backend URL (e.g., `https://<your-be>.onrender.com/api`)
-
-## License
-MIT
