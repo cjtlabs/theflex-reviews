@@ -1,0 +1,453 @@
+{
+  "status": "success",
+  "result": [
+    {
+      "id": 7453,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": null,
+      "publicReview": "Shane and family are wonderful! Would definitely host again 🙂",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 10 },
+        { "category": "communication", "rating": 10 },
+        { "category": "respect_house_rules", "rating": 10 }
+      ],
+      "submittedAt": "2020-08-21 22:45:14",
+      "guestName": "Shane Finkelstein",
+      "listingName": "2B N1 A - 29 Shoreditch Heights",
+      "channel": "Airbnb"
+    },
+    {
+      "id": 7454,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": 9,
+      "publicReview": "Maria was lovely and very respectful. Communication was prompt and clear throughout the stay. Happy to host again!",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 9 },
+        { "category": "communication", "rating": 10 },
+        { "category": "respect_house_rules", "rating": 9 }
+      ],
+      "submittedAt": "2021-03-12 15:22:10",
+      "guestName": "Maria Lopez",
+      "listingName": "Shoreditch Loft A",
+      "channel": "Booking"
+    },
+    {
+      "id": 7455,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": 8,
+      "publicReview": "Great communication throughout. Minor cleanup needed after checkout, but nothing major. Would welcome back.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 7 },
+        { "category": "communication", "rating": 9 },
+        { "category": "respect_house_rules", "rating": 8 }
+      ],
+      "submittedAt": "2022-06-04 09:10:00",
+      "guestName": "James Carter",
+      "listingName": "King's Cross Studio",
+      "channel": "Direct"
+    },
+    {
+      "id": 7456,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": 10,
+      "publicReview": "Perfect guest — spotless and very courteous. Checked in on time and left the apartment in excellent condition.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 10 },
+        { "category": "communication", "rating": 10 },
+        { "category": "respect_house_rules", "rating": 10 }
+      ],
+      "submittedAt": "2023-01-19 18:44:30",
+      "guestName": "Akira Tanaka",
+      "listingName": "Old Street Flat 3B",
+      "channel": "Airbnb"
+    },
+    {
+      "id": 7457,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": 6,
+      "publicReview": "Left dishes unwashed and some noise late at night, but responsive.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 5 },
+        { "category": "communication", "rating": 7 },
+        { "category": "respect_house_rules", "rating": 6 }
+      ],
+      "submittedAt": "2021-11-02 08:01:22",
+      "guestName": "Luca Rossi",
+      "listingName": "Camden Town 1BR",
+      "channel": "VRBO"
+    },
+    {
+      "id": 7458,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": null,
+      "publicReview": "Stayed one night, very polite and easy to host. Left everything tidy and followed the house rules. Welcome back anytime.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 9 },
+        { "category": "communication", "rating": 9 },
+        { "category": "respect_house_rules", "rating": 9 }
+      ],
+      "submittedAt": "2024-04-15 13:05:05",
+      "guestName": "Sophie Müller",
+      "listingName": "Soho Penthouse",
+      "channel": "Expedia"
+    },
+    {
+      "id": 7459,
+      "type": "host-to-guest",
+      "status": "pending",
+      "rating": 7,
+      "publicReview": "Solid stay overall. Responsive and respectful, with good communication. Will be published soon.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 7 },
+        { "category": "communication", "rating": 8 },
+        { "category": "respect_house_rules", "rating": 7 }
+      ],
+      "submittedAt": "2024-07-27 12:15:00",
+      "guestName": "Omar Hassan",
+      "listingName": "Notting Hill Mews",
+      "channel": "Booking"
+    },
+    {
+      "id": 7460,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": 9,
+      "publicReview": "Left the place spotless! Clear communication and thoughtful touches. Would recommend anytime.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 10 },
+        { "category": "communication", "rating": 9 },
+        { "category": "respect_house_rules", "rating": 9 }
+      ],
+      "submittedAt": "2020-10-10 17:20:10",
+      "guestName": "Emily Zhang",
+      "listingName": "Brixton Garden Flat",
+      "channel": "Direct"
+    },
+    {
+      "id": 7461,
+      "type": "host-to-guest",
+      "status": "flagged",
+      "rating": 5,
+      "publicReview": "Noise complaints from neighbours; otherwise checked out on time. Communication improved after we raised the issue.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 5 },
+        { "category": "communication", "rating": 6 },
+        { "category": "respect_house_rules", "rating": 5 }
+      ],
+      "submittedAt": "2023-08-05 21:55:40",
+      "guestName": "Carlos Alvarez",
+      "listingName": "Chelsea Townhouse",
+      "channel": "Expedia"
+    },
+    {
+      "id": 7462,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 10,
+      "publicReview": "Amazing host — quick responses and very accommodating. The flat was exactly as described and spotless. Would definitely return.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 10 },
+        { "category": "communication", "rating": 10 },
+        { "category": "respect_house_rules", "rating": 10 }
+      ],
+      "submittedAt": "2024-12-22 10:30:00",
+      "guestName": "Hannah Park",
+      "listingName": "Marylebone Terrace",
+      "channel": "Airbnb"
+    },
+    {
+      "id": 7463,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": 8,
+      "publicReview": "Pleasant stay and smooth communication.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 8 },
+        { "category": "communication", "rating": 9 },
+        { "category": "respect_house_rules", "rating": 8 }
+      ],
+      "submittedAt": "2025-01-05 14:12:00",
+      "guestName": "Priya Singh",
+      "listingName": "Shoreditch Loft A",
+      "channel": "VRBO"
+    },
+    {
+      "id": 7464,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": 7,
+      "publicReview": "Good guest overall; minor noise late evening.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 8 },
+        { "category": "communication", "rating": 8 },
+        { "category": "respect_house_rules", "rating": 6 }
+      ],
+      "submittedAt": "2024-10-18 19:35:00",
+      "guestName": "Tom Baker",
+      "listingName": "King's Cross Studio",
+      "channel": "Booking"
+    },
+    {
+      "id": 7465,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": 6,
+      "publicReview": "Some cleanliness issues noticed on checkout.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 5 },
+        { "category": "communication", "rating": 7 },
+        { "category": "respect_house_rules", "rating": 7 }
+      ],
+      "submittedAt": "2023-05-22 10:00:00",
+      "guestName": "Anna Novak",
+      "listingName": "Camden Town 1BR",
+      "channel": "Airbnb"
+    },
+    {
+      "id": 7466,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": 9,
+      "publicReview": "Very courteous and left the penthouse spotless.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 10 },
+        { "category": "communication", "rating": 9 },
+        { "category": "respect_house_rules", "rating": 9 }
+      ],
+      "submittedAt": "2024-02-28 08:22:00",
+      "guestName": "Lina Chen",
+      "listingName": "Soho Penthouse",
+      "channel": "Expedia"
+    },
+    {
+      "id": 7467,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 6,
+      "publicReview": "Host was responsive but check-in instructions could be clearer.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 8 },
+        { "category": "communication", "rating": 6 },
+        { "category": "respect_house_rules", "rating": 9 }
+      ],
+      "submittedAt": "2024-09-10 16:45:00",
+      "guestName": "Oliver Smith",
+      "listingName": "Marylebone Terrace",
+      "channel": "VRBO"
+    },
+    {
+      "id": 7468,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": 9,
+      "publicReview": "Left the flat in great condition. Would host again.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 9 },
+        { "category": "communication", "rating": 9 },
+        { "category": "respect_house_rules", "rating": 9 }
+      ],
+      "submittedAt": "2023-12-03 12:00:00",
+      "guestName": "David Lee",
+      "listingName": "Old Street Flat 3B",
+      "channel": "Direct"
+    },
+    {
+      "id": 7469,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": 8,
+      "publicReview": "Nice guest and easy communication.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 8 },
+        { "category": "communication", "rating": 8 },
+        { "category": "respect_house_rules", "rating": 8 }
+      ],
+      "submittedAt": "2022-09-14 09:30:00",
+      "guestName": "Sara Ahmed",
+      "listingName": "Brixton Garden Flat",
+      "channel": "VRBO"
+    },
+    {
+      "id": 7470,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": 9,
+      "publicReview": "Great communication and followed all house rules.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 9 },
+        { "category": "communication", "rating": 10 },
+        { "category": "respect_house_rules", "rating": 9 }
+      ],
+      "submittedAt": "2025-03-08 11:25:00",
+      "guestName": "Marco Silva",
+      "listingName": "Notting Hill Mews",
+      "channel": "Booking"
+    },
+    {
+      "id": 7471,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": 8,
+      "publicReview": "Left the flat tidy and followed instructions. Happy to host again.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 8 },
+        { "category": "communication", "rating": 9 },
+        { "category": "respect_house_rules", "rating": 8 }
+      ],
+      "submittedAt": "2024-05-10 14:22:00",
+      "guestName": "Julia Brown",
+      "listingName": "1 Bed Flat near Westfield",
+      "channel": "Airbnb"
+    },
+    {
+      "id": 7472,
+      "type": "host-to-guest",
+      "status": "pending",
+      "rating": 7,
+      "publicReview": "Good overall. A couple of messages missed but nothing major.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 7 },
+        { "category": "communication", "rating": 7 },
+        { "category": "respect_house_rules", "rating": 8 }
+      ],
+      "submittedAt": "2024-06-18 09:05:00",
+      "guestName": "Daniel Wright",
+      "listingName": "1 Bed Flat near Westfield",
+      "channel": "Booking"
+    },
+    {
+      "id": 7473,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": 10,
+      "publicReview": "Perfect guest — respectful, on time, and spotless.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 10 },
+        { "category": "communication", "rating": 10 },
+        { "category": "respect_house_rules", "rating": 10 }
+      ],
+      "submittedAt": "2024-07-02 18:00:00",
+      "guestName": "Emma Wilson",
+      "listingName": "1 Bed Flat near Westfield",
+      "channel": "Direct"
+    },
+    {
+      "id": 7474,
+      "type": "host-to-guest",
+      "status": "flagged",
+      "rating": 5,
+      "publicReview": "Noise after quiet hours on one night; responded when asked.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 6 },
+        { "category": "communication", "rating": 6 },
+        { "category": "respect_house_rules", "rating": 5 }
+      ],
+      "submittedAt": "2024-07-20 23:40:00",
+      "guestName": "Tom Richards",
+      "listingName": "1 Bed Flat near Westfield",
+      "channel": "Airbnb"
+    },
+    {
+      "id": 7475,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 9,
+      "publicReview": "Great location next to Westfield; host was very responsive.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 9 },
+        { "category": "communication", "rating": 10 },
+        { "category": "respect_house_rules", "rating": 9 }
+      ],
+      "submittedAt": "2024-08-05 12:10:00",
+      "guestName": "Sana Patel",
+      "listingName": "1 Bed Flat near Westfield",
+      "channel": "VRBO"
+    },
+    {
+      "id": 7476,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": null,
+      "publicReview": "Short stay; polite and easy to communicate with.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 8 },
+        { "category": "communication", "rating": 9 },
+        { "category": "respect_house_rules", "rating": 9 }
+      ],
+      "submittedAt": "2024-09-12 08:45:00",
+      "guestName": "Marek Nowak",
+      "listingName": "1 Bed Flat near Westfield",
+      "channel": "Direct"
+    },
+    {
+      "id": 7477,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": 6,
+      "publicReview": "Minor cleanliness issues; otherwise fine.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 5 },
+        { "category": "communication", "rating": 7 },
+        { "category": "respect_house_rules", "rating": 7 }
+      ],
+      "submittedAt": "2024-10-03 10:30:00",
+      "guestName": "Elena García",
+      "listingName": "1 Bed Flat near Westfield",
+      "channel": "Booking"
+    },
+    {
+      "id": 7478,
+      "type": "guest-to-host",
+      "status": "published",
+      "rating": 8,
+      "publicReview": "Comfortable flat near the mall; would stay again.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 8 },
+        { "category": "communication", "rating": 8 },
+        { "category": "respect_house_rules", "rating": 9 }
+      ],
+      "submittedAt": "2024-11-14 16:05:00",
+      "guestName": "George Hill",
+      "listingName": "1 Bed Flat near Westfield",
+      "channel": "Airbnb"
+    },
+    {
+      "id": 7479,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": 7,
+      "publicReview": "Good guest. Check-out slightly late but communicated ahead.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 7 },
+        { "category": "communication", "rating": 8 },
+        { "category": "respect_house_rules", "rating": 7 }
+      ],
+      "submittedAt": "2025-01-09 11:50:00",
+      "guestName": "Ling Wei",
+      "listingName": "1 Bed Flat near Westfield",
+      "channel": "Direct"
+    },
+    {
+      "id": 7480,
+      "type": "host-to-guest",
+      "status": "published",
+      "rating": 10,
+      "publicReview": "Excellent guest — friendly, clean, and respectful.",
+      "reviewCategory": [
+        { "category": "cleanliness", "rating": 10 },
+        { "category": "communication", "rating": 10 },
+        { "category": "respect_house_rules", "rating": 10 }
+      ],
+      "submittedAt": "2025-02-18 19:25:00",
+      "guestName": "Noah Bennett",
+      "listingName": "1 Bed Flat near Westfield",
+      "channel": "Expedia"
+    }
+  ]
+}
