@@ -15,7 +15,7 @@ export const clearAuthToken = () => {
   delete api.defaults.headers.common["Authorization"];
 };
 
-export const getReviews = async (includeHidden = true) => {
+export const getReviews = async (includeHidden = false) => {
   const res = await api.get(`/reviews/hostaway`, {
     params: { include_hidden: includeHidden },
   });
