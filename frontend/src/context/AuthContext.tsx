@@ -17,7 +17,10 @@ export function AuthProvider({ children }: { children: ReactNode }) {
     const stored = localStorage.getItem("auth_user");
     return stored ? JSON.parse(stored) : null;
   });
-  const [token, setToken] = useState<string | null>(null);
+  const [token, setToken] = useState<string | null>(() => {
+    const stored = localStorage.getItem("auth_token");
+    return stored ? stored : null;
+  });
 
   const navigate = useNavigate();
 
