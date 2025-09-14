@@ -16,6 +16,11 @@ export const clearAuthToken = () => {
 };
 
 export const getReviews = async (includeHidden = false) => {
+  if (includeHidden) {
+    const token = localStorage.getItem("auth_token");
+    if (token) api.defaults.headers.common["Authorization"] = `Bearer ${token}`;
+    else delete api.defaults.headers.common["Authorization"];
+  }
   const res = await api.get(`/reviews/hostaway`, {
     params: { include_hidden: includeHidden },
   });
